@@ -40,6 +40,7 @@ namespace Simple_Auth_Test
                 {
                     if (Methods.GlobalVars.arr[i].pass == pass)
                     {
+                        Methods.GlobalVars.auth_id = Methods.GlobalVars.arr[i].u_id;
                         Frames.TestWindow();
                         this.Visible=false;
                     }else
@@ -51,6 +52,7 @@ namespace Simple_Auth_Test
              
 
             }
+            
         }
 
 

@@ -69,7 +69,7 @@ namespace Simple_Auth_Test
 
         private void Test_Load(object sender, EventArgs e)
         {
-
+            label6.Text += Methods.GlobalVars.arr[Methods.GlobalVars.auth_id].fio;
         }
 
         private void button2_Click(object sender, EventArgs e)

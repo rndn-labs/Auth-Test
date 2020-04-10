@@ -21,9 +21,11 @@ namespace Simple_Auth_Test
 
         private void reg_btn_Click(object sender, EventArgs e)
         {
-            int uid = 0;
+            
             Methods.GlobalVars.arr[Methods.GlobalVars.uid].login = reg_login.Text;
             Methods.GlobalVars.arr[Methods.GlobalVars.uid].pass = reg_pass.Text;
+            Methods.GlobalVars.arr[Methods.GlobalVars.uid].fio = fio.Text;
+            Methods.GlobalVars.arr[Methods.GlobalVars.uid].u_id = Methods.GlobalVars.uid;
             Methods.GlobalVars.uid++;
             this.Visible = false;
             MessageBox.Show("Регистрация завершена", "Успех!", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1);

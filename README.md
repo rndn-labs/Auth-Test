@@ -3,4 +3,4 @@
 # Скриншот
 <img src="https://github.com/rndn-labs/Auth-Test/blob/master/assets/screenshot.PNG" alt="image" border="0"></img>
 # Загрузить
-<a href="https://github.com/rndn-labs/Auth-Test/blob/master/assets/release.exe?raw=true">Здесь</a>
+Доступно для загрузки <a href="https://github.com/rndn-labs/Auth-Test/releases">здесь</a>
